@@ -14,7 +14,7 @@ const ContactUs = () => {
     const [loading, setIsloading] = useState(false)
     const [result, setResult] = useState("")
     const sendEmail = (e) => {
-        console.log(`${process.env.REACT_APP_FORM_SERVICE_ID}`);
+        
         e.preventDefault();
         
         setIsloading(true);
@@ -100,10 +100,10 @@ const ContactUs = () => {
 
 
             </div>
-            <div className="row bg-dark  mt-5 ">
-                <div className="col-lg-4 py-0 ">
+            <div className="row bg-dark mb-0  mt-5 ">
+                <div className="col-lg-4 pt-3 ">
                     <div className="     px-4  text-center  ">
-                        <span className="span"><i id class="fa fa-phone aria-hidden=true"></i></span>
+                        <span className="span"><i class="fas fa-phone aria-hidden=true"></i></span>
                         <p className="pt-4 pb-1 text-warning fw-bold">PHONE</p>
                         <p className="text-light">08171476946</p>
 
@@ -111,8 +111,8 @@ const ContactUs = () => {
                 </div>
 
                 <div className="col-lg-4  py-3 ">
-                    <div className="   text-centertext-warning px-4  ">
-                        <span className="span"><i  idclass="fa fa-map-marker aria-hidden=true"></i></span>
+                    <div className="   text-center text-warning px-4  ">
+                        <span className="span"><i   class="fa fa-map-marker aria-hidden=true"></i></span>
 
                         <p className="pt-4 pb-1 text-warning  fw-bold ">ADDRESS</p>
                         <p className="text-light">50, Ebitu, Ukiwe street Jabi Abuja</p>
@@ -124,7 +124,7 @@ const ContactUs = () => {
 
                 <div className="col-lg-4 py-3 ">
                     <div className="  text-center   px-4  ">
-                        <span className="span"><i idclass="fa fa-email aria-hidden=true"></i></span>
+                        <span className="span"><i class="fa fa-email aria-hidden=true"></i></span>
                         <p className="text-warning  pt-4 pb-1 fw-bold">EMAIL</p>
                         <p className="text-light">ur9groupltd@gmail.com</p>
 

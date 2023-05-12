@@ -15,6 +15,8 @@ function CONTACTUS() {
             <Nav.Link href="/">HOME</Nav.Link>
             <Nav.Link href="/About">ABOUT</Nav.Link>
             <Nav.Link href="/Contact">CONTACT</Nav.Link>
+            <Nav.Link href="/Projects">PROJECTS</Nav.Link>
+            <Nav.Link href="/Blogs">BLOGS</Nav.Link>
           </Nav>
          
         </Navbar.Collapse>

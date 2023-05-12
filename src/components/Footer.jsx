@@ -35,7 +35,7 @@ const Footer = () => {
 {/* icons-section */}
 <div className="row">
         
-<p className="fw-lighter text-center">&copy; UR9 group All rights reserved<span className=" Date px-1 text-warning">{newDay} </span></p>
+<p className="fw-lighter text-center"> copyright &copy; UR9 group All rights reserved<span className=" Date px-1 text-warning">{newDay} </span></p>
 
 <div class="footer-icon d-flex  align-items-center justify-content-center ,max-w-100 mx-6 mb-7 col-12  "  >
 

@@ -3,18 +3,18 @@ import Navbar from './components/Navbar';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Hero from './components/Hero';
-
-import About from './components/About';
+import About from './components/About'
 import ContactUs from './components/Contact';
 import Footer from './components/Footer';
-
+import Projects  from './components/Project';
+import Blogs  from './components/Blogs';
 function App() {
-  // console.log(process.env.REACT_APP_API_KEY);
+ 
   return (
     <div className="App">
      
      <Router>
-    <div className='back'>
+    <div className='bac'>
     
       
       <Navbar/> 
@@ -24,8 +24,8 @@ function App() {
 <Route exact path="/"> <Hero/></Route>
 <Route path="/About"> <About/>  </Route>
 <Route path="/Contact"> <ContactUs/>  </Route>
-
-
+<Route path="/Project"> <Projects/>  </Route>
+<Route path="/Blogs"> <Blogs/>  </Route>
  </Switch>
  
     
