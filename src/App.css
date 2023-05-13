@@ -4,32 +4,26 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 
-
-
-
-
-
 }
 
 
-:root {
-  /* colors */
+/* :root{
+
   --primary-color: #15172f;
   --light-color1: #1f1e21;
-  --dark: rgba(0, 0, 0, 0.7);
+  --dark: #000000b3;
   --gold: #e3ab13;
-  --violet: #5258FB;
-  /* fonts */
+  --purple: #67298c;
   --h1-color: 'League Spartan', sans-serif;
-  --Rail-way: 'Raleway',
-    --Public-sans: 'Public Sans', sans-serif;
+  --Rail-way: 'Raleway';
+   --Public-Sans: 'Public Sans', sans-serif;
   --Poppings: 'Poppins', sans-serif;
   --Lato: 'Lato', sans-serif;
   --Roboto: font-family: 'Roboto Condensed', sans-serif;
   --Montserat: 'Montserrat', sans-serif;
 
 
-}
+} */
 
 
 p {
@@ -38,6 +32,7 @@ p {
 
   font-weight: 200px;
 }
+
 
 
 .imG {
