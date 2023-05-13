@@ -6,22 +6,20 @@
 
 }
 
-
-:root{
-
+body{
+  
   --primary-color: #15172f;
   --light-color1: #1f1e21;
   --dark: #000000b3;
   --gold: #e3ab13;
   --purple: #67298c;
-  --h1-color: 'League Spartan', sans-serif;
+  --h1-color: 'League Spartan', sans-serif; 
   --Rail-way: 'Raleway';
    --Public-Sans: 'Public Sans', sans-serif;
   --Poppings: 'Poppins', sans-serif;
   --Lato: 'Lato', sans-serif;
   --Roboto: font-family: 'Roboto Condensed', sans-serif;
   --Montserat: 'Montserrat', sans-serif;
-
 
 }
 
